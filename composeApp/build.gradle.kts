@@ -49,17 +49,17 @@ kotlin {
 }
 
 android {
-    namespace = "com.ibenabdallah.mykmp"
-    compileSdk = 34
+    namespace = "com.ibenabdallah.indicatorscmp"
+    compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     sourceSets["main"].res.srcDirs("src/androidMain/res")
     sourceSets["main"].resources.srcDirs("src/commonMain/resources")
 
     defaultConfig {
-        applicationId = "com.ibenabdallah.mykmp"
-        minSdk = 26
-        targetSdk = 34
+        applicationId = "com.ibenabdallah.indicatorscmp"
+        minSdk = libs.versions.android.minSdk.get().toInt()
+        targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
         versionName = "1.0"
     }

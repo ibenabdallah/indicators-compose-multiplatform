@@ -1,4 +1,4 @@
-rootProject.name = "MyKMP"
+rootProject.name = "Indicators-Compose-Multiplatform"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 pluginManagement {

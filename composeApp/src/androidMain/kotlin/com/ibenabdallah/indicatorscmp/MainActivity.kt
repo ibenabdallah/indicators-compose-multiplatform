@@ -1,4 +1,4 @@
-package com.ibenabdallah.mykmp
+package com.ibenabdallah.indicatorscmp
 
 import App
 import Indicators
