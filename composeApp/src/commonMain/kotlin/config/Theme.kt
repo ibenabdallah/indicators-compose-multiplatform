@@ -53,7 +53,7 @@ fun UIScreen(content: @Composable () -> Unit) {
         Scaffold(
             topBar = {
                 TopAppBar(
-                    title = { Text(text = "My First App KMP") },
+                    title = { Text(text = "Indicators Compose Multiplatform") },
                     colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                         containerColor = MaterialTheme.colorScheme.primary,
                         titleContentColor = MaterialTheme.colorScheme.surface
